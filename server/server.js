@@ -10,7 +10,13 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(morgan('dev'));
-app.use(cors({ origin: process.env.ORIGIN?.split(',') || ['http://localhost:5173'] }));
+
+// This should come before your routes
+app.use(cors({
+  origin: process.env.ORIGIN?.split(','),
+  credentials: true,
+}));
+
 
 app.get('/api/health', (req, res) => res.json({ ok: true }));
 
