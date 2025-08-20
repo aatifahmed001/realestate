@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
-    "seed": "node src/seed.js"
+    "seed": "node src/seed.js",
+    "build": "echo 'No build step needed for backend'"
+
   },
   "dependencies": {
     "cors": "^2.8.5",
