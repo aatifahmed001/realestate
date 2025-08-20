@@ -1,0 +1,85 @@
+[
+  {
+    "title": "Skyline Residences",
+    "slug": "skyline-residences",
+    "location": "Bandra West, Mumbai",
+    "price": 42500000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "areaSqft": 1800,
+    "heroImage": "https://images.unsplash.com/photo-1501183638710-841dd1904471?q=80&w=1200&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1523217582562-09d0def993a6?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "description": "A premium high-rise with Arabian Sea views, modern amenities, and easy access to shopping and business hubs.",
+    "layoutImage": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=1200&auto=format&fit=crop",
+    "facilities": [
+      "Swimming Pool",
+      "Gym",
+      "2 Car Parks",
+      "24x7 Security",
+      "Clubhouse"
+    ],
+    "coordinates": {
+      "lat": 19.055,
+      "lng": 72.829
+    }
+  },
+  {
+    "title": "Palm Grove Villas",
+    "slug": "palm-grove-villas",
+    "location": "Whitefield, Bengaluru",
+    "price": 32000000,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "areaSqft": 2500,
+    "heroImage": "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "description": "A serene gated community of contemporary villas surrounded by greenery, with family-friendly facilities.",
+    "layoutImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop",
+    "facilities": [
+      "Private Garden",
+      "Kids Play Area",
+      "Power Backup",
+      "Multipurpose Hall",
+      "Jogging Track"
+    ],
+    "coordinates": {
+      "lat": 12.969,
+      "lng": 77.75
+    }
+  },
+  {
+    "title": "Harbourview Apartments",
+    "slug": "harbourview-apartments",
+    "location": "ECR, Chennai",
+    "price": 21000000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "areaSqft": 1250,
+    "heroImage": "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "description": "Beachside living with bright, airy interiors and balconies overlooking the Bay of Bengal.",
+    "layoutImage": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?q=80&w=1200&auto=format&fit=crop",
+    "facilities": [
+      "Rooftop Deck",
+      "Indoor Games",
+      "CCTV",
+      "Visitor Parking"
+    ],
+    "coordinates": {
+      "lat": 12.984,
+      "lng": 80.256
+    }
+  }
+]
