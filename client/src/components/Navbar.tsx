@@ -13,7 +13,7 @@ export default function Navbar() {
     <header className="border-b bg-white sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <NavLink to="/" className="text-xl font-bold">RealEstate</NavLink>
-        <nav className="space-x-2">
+        <nav className="hidden md:flex space-x-2">
           <NavLink to="/" className={linkClass}>Home</NavLink>
           <NavLink to="/about" className={linkClass}>About</NavLink>
           <NavLink to="/projects" className={linkClass}>Projects</NavLink>
