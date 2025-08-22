@@ -11,12 +11,30 @@ const app = express();
 app.use(express.json());
 app.use(morgan('dev'));
 
-// This should come before your routes
+// Parse allowed origins from .env
+const allowedOrigins = process.env.ORIGIN?.split(',') ?? [];
+
 app.use(cors({
-  origin: process.env.ORIGIN?.split(','),
-  credentials: true,
+  origin: function (origin, callback) {
+    // Allow requests with no origin (like curl or server-to-server)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    } else {
+      return callback(new Error(`CORS error: Origin ${origin} not allowed`), false);
+    }
+  },
+  credentials: true, // Only needed if you use cookies/auth headers
 }));
 
+app.use((req, res, next) => {
+  console.log('Request origin:', req.headers.origin);
+  next();
+});
+
+app.get("/", (req, res) => {
+  res.json({ message: "Backend API is running 🚀" });
+});
 
 app.get('/api/health', (req, res) => res.json({ ok: true }));
 
